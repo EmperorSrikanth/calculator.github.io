@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background: #212121;
+}
+header, footer{
+    font-family: 'Playfair Display', serif;
+    background-color: #fff;
+    height: 65px auto;
+    text-align: center;
+    width: 100%;
+    color: rgb(187, 184, 184);
+    box-shadow: 0 2px 9px rgba(0.5, 0, 0, 0.5);
+    background-color: #212121;
+    overflow: hidden;
+}
+footer {
+    height: 65px;
+    position: absolute;
+    bottom: 0;
+}
+footer p{
+    position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+}
+span{
+    font-family: 'Roboto', sans-serif;
+    color: #616161;
+}
+.cont h1 {
+    padding: 10px 0px;
+    
+}
+.content {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 700px;
+    left: 50%;
+    vertical-align: middle;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    
+}
+.infi {
+    background: #212121;
+    color: #fff;
+    margin: 15px;
+    text-align: center;
+    padding: 12px 2px;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    border-style:solid;
+    margin: 0;
+    margin-bottom: 15px;
+    border: 2px solid #616161;
+}
+input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    }
+input[type=number] {
+    -moz-appearance:textfield;
+}
+/* Button Scripts */
+.button {
+    /* Rozmiar i pozycja */
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    width: 124px;
+    height: 44px;
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    margin-top: -22px;
+    margin-left: -62px;
+    
+    /* Tekst */
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 -1px -1px #0f864a;
+    
+    /* Wygląd */
+    background-color: #12a65c;
+    border-radius: 4px;
+    box-shadow: 0 4px 0 #0f864a, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+    
+    /* Przejście */
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+  }
+  
+  .button:hover {
+    text-shadow: 0 -1px -1px #119d57;
+    background-color: #14bd69;
+    box-shadow: 0 4px 0 #119d57, 0 5px 5px 1px rgba(0, 0, 0, 0.4);
+  }
+    
+  .button:active {
+      margin-top: -18px;
+      box-shadow: none;
+  }
+  .extra {
+      color: #20ec86;
+  }
+  #result, #result1 {
+    color: #1fbd6e;
+    position: absolute;
+    border: 1px solid #10a35a;
+    top: 115%;
+    border-radius: 2px;
+    padding: 4px;
+    display: none;
+  }
+  #result1 {
+      top: 129%;
+  }
